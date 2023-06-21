@@ -10,9 +10,10 @@ namespace PhoneBook
     {
         private string name;
         private string surname;
-        private int phoneNumber;
+        private string phoneNumber;
 
-        public Person(string name, string surname, int phoneNumber)
+        public Person() { }
+        public Person(string name, string surname, string phoneNumber)
         {
             Name = name;
             Surname = surname;
@@ -21,6 +22,6 @@ namespace PhoneBook
 
         public string Name { get => name; set => name = value; }
         public string Surname { get => surname; set => surname = value; }
-        public int PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
+        public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
     }
 }
