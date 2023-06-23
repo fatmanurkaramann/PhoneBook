@@ -13,7 +13,7 @@ internal class Program
             Console.WriteLine("2. Remove phone number");
             Console.WriteLine("3. Update phone number");
             Console.WriteLine("4. List Phone");
-            Console.WriteLine("5. Search Person");
+            Console.WriteLine("5. Search Phone");
             Console.WriteLine("6. Exit");
             int choice = Convert.ToInt32(Console.ReadLine());
 
