@@ -5,7 +5,7 @@ internal class Program
     public static void Main(string[] args)
     {
         PhoneApp phoneApp = new PhoneApp();
-
+        
         while (true)
         {
             Console.WriteLine("Enter your choice:");
@@ -15,6 +15,7 @@ internal class Program
             Console.WriteLine("4. List Phone");
             Console.WriteLine("5. Search Phone");
             Console.WriteLine("6. Exit");
+
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
